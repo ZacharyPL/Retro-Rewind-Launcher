@@ -1,0 +1,1538 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../filemodule/libfile/libfile_ios.a(files_c.o)
+                              main_cpp.o (File_Init)
+../../libios/libios.a(proxiios_cpp.o)
+                              emu_cpp.o (ProxiIOS::Module::HandleOpen(ipcmessage*))
+../../libios/libios.a(mem_c.o)
+                              main_cpp.o (InitializeHeap)
+../../libios/libios.a(usb_c.o)
+                              usbhid_cpp.o (USB_CloseDevice)
+../../libios/libios.a(asyscalls_s.o)
+                              emu_cpp.o (os_thread_create)
+../../libios/libios.a(gpio_c.o)
+                              ../../libios/libios.a(usb_c.o) (gpio_set_on)
+../../libios/libios.a(lock_c.o)
+                              ../../libios/libios.a(mem_c.o) (InitializeLock)
+../../libios/libios.a(lwp_heap_c.o)
+                              ../../libios/libios.a(mem_c.o) (__lwp_heap_init)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_udivsi3.o)
+                              emu_cpp.o (__aeabi_uidiv)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_divsi3.o)
+                              emu_cpp.o (__aeabi_idiv)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_dvmd_tls.o)
+                              C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+                              dip_cpp.o (strncmp)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+                              dip_cpp.o (strchr)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+                              dip_cpp.o (strlen)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+                              emu_cpp.o (memmove)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+                              dip_cpp.o (strcat)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+                              emu_cpp.o (strcasecmp)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+                              emu_cpp.o (stpcpy)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+                              dip_cpp.o (memcpy)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+                              C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o) (_ctype_)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+                              dip_cpp.o (memset)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+                              dip_cpp.o (strcpy)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+                              dip_cpp.o (strncpy)
+C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcmp.o)
+                              emu_cpp.o (strcmp)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 cache_cpp.o
+ .data          0x00000000        0x0 cache_cpp.o
+ .bss           0x00000000        0x0 cache_cpp.o
+ .debug_info    0x00000000       0xa3 cache_cpp.o
+ .debug_abbrev  0x00000000       0x56 cache_cpp.o
+ .debug_aranges
+                0x00000000       0x18 cache_cpp.o
+ .debug_line    0x00000000       0xf2 cache_cpp.o
+ .debug_str     0x00000000      0x277 cache_cpp.o
+ .comment       0x00000000       0x24 cache_cpp.o
+ .ARM.attributes
+                0x00000000       0x28 cache_cpp.o
+ .group         0x00000000        0x8 dip_cpp.o
+ .group         0x00000000        0x8 dip_cpp.o
+ .group         0x00000000        0x8 dip_cpp.o
+ .group         0x00000000        0x8 dip_cpp.o
+ .text          0x00000000        0x0 dip_cpp.o
+ .data          0x00000000        0x0 dip_cpp.o
+ .bss           0x00000000        0x0 dip_cpp.o
+ .text._ZN8ProxiIOS3DIP3DIP12GetPatchSizeEi
+                0x00000000       0x18 dip_cpp.o
+ .text._ZN8ProxiIOS3DIP3DIP8AddPatchEiPv
+                0x00000000       0x68 dip_cpp.o
+ .text._ZN8ProxiIOS3DIP3DIP12ForwardIoctlEP10ipcmessageb
+                0x00000000        0x8 dip_cpp.o
+ .text._ZN8ProxiIOS3DIP3DIP13ForwardIoctlvEP10ipcmessageb
+                0x00000000        0x8 dip_cpp.o
+ .text          0x00000000        0x0 diprovider_cpp.o
+ .data          0x00000000        0x0 diprovider_cpp.o
+ .bss           0x00000000        0x0 diprovider_cpp.o
+ .debug_info    0x00000000       0xc3 diprovider_cpp.o
+ .debug_abbrev  0x00000000       0x62 diprovider_cpp.o
+ .debug_aranges
+                0x00000000       0x18 diprovider_cpp.o
+ .debug_line    0x00000000      0x15f diprovider_cpp.o
+ .debug_str     0x00000000      0x295 diprovider_cpp.o
+ .comment       0x00000000       0x24 diprovider_cpp.o
+ .ARM.attributes
+                0x00000000       0x28 diprovider_cpp.o
+ .group         0x00000000        0x8 emu_cpp.o
+ .group         0x00000000        0x8 emu_cpp.o
+ .group         0x00000000        0x8 emu_cpp.o
+ .group         0x00000000        0x8 emu_cpp.o
+ .group         0x00000000        0x8 emu_cpp.o
+ .group         0x00000000        0x8 emu_cpp.o
+ .group         0x00000000        0xc emu_cpp.o
+ .group         0x00000000        0xc emu_cpp.o
+ .group         0x00000000        0xc emu_cpp.o
+ .text          0x00000000        0x0 emu_cpp.o
+ .data          0x00000000        0x0 emu_cpp.o
+ .bss           0x00000000        0x0 emu_cpp.o
+ .text._ZN8ProxiIOS6Module14HandleCallbackEP10ipcmessage
+                0x00000000        0x4 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU10ShadowFile5WriteEPKvi
+                0x00000000       0x84 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU10ShadowFileD2Ev
+                0x00000000       0x90 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU10ShadowFileD0Ev
+                0x00000000       0x98 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU9chartoHexEPKc
+                0x00000000       0x28 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU8RiivFile4OpenEv
+                0x00000000       0x18 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU8RiivFileC2Ev
+                0x00000000       0x14 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU8RiivFileC2EPKci
+                0x00000000       0x30 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU10ShadowFileC2EPKcS3_
+                0x00000000       0xf0 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU7VFFFileC2EPKci
+                0x00000000       0x54 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU7VFFFile5FlushEv
+                0x00000000       0x34 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU7AppFileC2EPKc
+                0x00000000       0x3c emu_cpp.o
+ .text._ZN8ProxiIOS3EMU7RiivDirD2Ev
+                0x00000000       0x1c emu_cpp.o
+ .text._ZN8ProxiIOS3EMU6AppDir10IndexToBinEiPc
+                0x00000000       0x44 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU6AppDir10InitializeEv
+                0x00000000       0x14 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU6AppDirC2EPKcS3_
+                0x00000000       0x28 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU9TitleFile10GetTitleIDEPKcNS1_4TypeE
+                0x00000000       0x8c emu_cpp.o
+ .text._ZN8ProxiIOS3EMU9TicketDirC2Ev
+                0x00000000       0x28 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU9TicketDir3BanEj
+                0x00000000       0x28 emu_cpp.o
+ .rodata._ZTVN8ProxiIOS3EMU10ShadowFileE
+                0x00000000       0x1c emu_cpp.o
+ .text          0x00000000        0x0 fileprovider_cpp.o
+ .data          0x00000000        0x0 fileprovider_cpp.o
+ .bss           0x00000000        0x0 fileprovider_cpp.o
+ .debug_info    0x00000000       0xc3 fileprovider_cpp.o
+ .debug_abbrev  0x00000000       0x62 fileprovider_cpp.o
+ .debug_aranges
+                0x00000000       0x18 fileprovider_cpp.o
+ .debug_line    0x00000000      0x161 fileprovider_cpp.o
+ .debug_str     0x00000000      0x297 fileprovider_cpp.o
+ .comment       0x00000000       0x24 fileprovider_cpp.o
+ .ARM.attributes
+                0x00000000       0x28 fileprovider_cpp.o
+ .text          0x00000000        0x0 logging_cpp.o
+ .data          0x00000000        0x0 logging_cpp.o
+ .bss           0x00000000        0x0 logging_cpp.o
+ .text          0x00000000        0x0 main_cpp.o
+ .data          0x00000000        0x0 main_cpp.o
+ .bss           0x00000000        0x0 main_cpp.o
+ .text          0x00000000        0x0 rijndael_cpp.o
+ .data          0x00000000        0x0 rijndael_cpp.o
+ .bss           0x00000000        0x0 rijndael_cpp.o
+ .debug_info    0x00000000       0xa3 rijndael_cpp.o
+ .debug_abbrev  0x00000000       0x56 rijndael_cpp.o
+ .debug_aranges
+                0x00000000       0x18 rijndael_cpp.o
+ .debug_line    0x00000000       0xf5 rijndael_cpp.o
+ .debug_str     0x00000000      0x27a rijndael_cpp.o
+ .comment       0x00000000       0x24 rijndael_cpp.o
+ .ARM.attributes
+                0x00000000       0x28 rijndael_cpp.o
+ .group         0x00000000        0x8 usbhid_cpp.o
+ .group         0x00000000        0x8 usbhid_cpp.o
+ .group         0x00000000        0x8 usbhid_cpp.o
+ .group         0x00000000        0x8 usbhid_cpp.o
+ .group         0x00000000        0x8 usbhid_cpp.o
+ .text          0x00000000        0x0 usbhid_cpp.o
+ .data          0x00000000        0x0 usbhid_cpp.o
+ .bss           0x00000000        0x0 usbhid_cpp.o
+ .text._ZN8ProxiIOS11ProxyModule10HandleReadEP10ipcmessage
+                0x00000000        0xc usbhid_cpp.o
+ .text._ZN8ProxiIOS11ProxyModule11HandleWriteEP10ipcmessage
+                0x00000000        0xc usbhid_cpp.o
+ .text._ZN8ProxiIOS11ProxyModule10HandleSeekEP10ipcmessage
+                0x00000000        0xc usbhid_cpp.o
+ .text._ZN8ProxiIOS3USB13XBOX360_DrumsC2Ev
+                0x00000000        0x8 usbhid_cpp.o
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums10DisconnectEv
+                0x00000000       0x14 usbhid_cpp.o
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums13PutDescriptorEPj
+                0x00000000       0x84 usbhid_cpp.o
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums10GetFeatureEPhj
+                0x00000000       0x44 usbhid_cpp.o
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums7ConnectEv
+                0x00000000       0x2c usbhid_cpp.o
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums11SetProtocolEt
+                0x00000000       0x10 usbhid_cpp.o
+ .text          0x00000000        0x0 binfile_c.o
+ .data          0x00000000        0x0 binfile_c.o
+ .bss           0x00000000        0x0 binfile_c.o
+ .text.get_key_index
+                0x00000000       0xcc binfile_c.o
+ .text.FileRead
+                0x00000000       0x24 binfile_c.o
+ .text.FileWrite
+                0x00000000       0x24 binfile_c.o
+ .text.FileSeek
+                0x00000000       0x24 binfile_c.o
+ .rodata.null_key
+                0x00000000       0x10 binfile_c.o
+ .text          0x00000000        0x0 crt0_s.o
+ .data          0x00000000        0x0 crt0_s.o
+ .bss           0x00000000        0x0 crt0_s.o
+ .text          0x00000000        0x0 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .data          0x00000000        0x0 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .bss           0x00000000        0x0 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Deinit
+                0x00000000       0x1c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_MountDisk
+                0x00000000       0x70 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Mount
+                0x00000000       0x48 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Unmount
+                0x00000000       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_SetDefault
+                0x00000000       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_SetDefaultPath
+                0x00000000       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_SetLogFS
+                0x00000000       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_GetLogFS
+                0x00000000       0x28 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_GetMountPoint
+                0x00000000       0x40 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Tell
+                0x00000000        0xc ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Sync
+                0x00000000        0xc ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Log
+                0x00000000       0x38 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_GetFreeSpace
+                0x00000000       0x58 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_CheckPhysical
+                0x00000000       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_SetSlotLED
+                0x00000000       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_RiiFS_Mount
+                0x00000000       0x64 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .text.File_Fat_Mount
+                0x00000000       0x7c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .group         0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .text          0x00000000        0x0 ../../libios/libios.a(proxiios_cpp.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(proxiios_cpp.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS6Module11HandleCloseEP10ipcmessage
+                0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS6Module10HandleReadEP10ipcmessage
+                0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS6Module11HandleWriteEP10ipcmessage
+                0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS6Module10HandleSeekEP10ipcmessage
+                0x00000000        0x8 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS6Module14HandleCallbackEP10ipcmessage
+                0x00000000        0x4 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS6Module11HandleOtherEjRiRb
+                0x00000000        0xc ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS11ProxyModule10HandleReadEP10ipcmessage
+                0x00000000       0x44 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS11ProxyModule11HandleWriteEP10ipcmessage
+                0x00000000       0x44 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS11ProxyModule10HandleSeekEP10ipcmessage
+                0x00000000       0x44 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS11ProxyModule12HandleIoctlvEP10ipcmessage
+                0x00000000       0x74 ../../libios/libios.a(proxiios_cpp.o)
+ .text._ZN8ProxiIOS11ProxyModule11HandleIoctlEP10ipcmessage
+                0x00000000       0x8c ../../libios/libios.a(proxiios_cpp.o)
+ .rodata._ZTVN8ProxiIOS11ProxyModuleE
+                0x00000000       0x44 ../../libios/libios.a(proxiios_cpp.o)
+ .text          0x00000000        0x0 ../../libios/libios.a(mem_c.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(mem_c.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(mem_c.o)
+ .text.Realloc  0x00000000       0x2c ../../libios/libios.a(mem_c.o)
+ .text.HeapInfo
+                0x00000000       0x30 ../../libios/libios.a(mem_c.o)
+ .text.malloc   0x00000000       0x2c ../../libios/libios.a(mem_c.o)
+ .text.memalign
+                0x00000000       0x2c ../../libios/libios.a(mem_c.o)
+ .text.free     0x00000000       0x28 ../../libios/libios.a(mem_c.o)
+ .text          0x00000000        0x0 ../../libios/libios.a(usb_c.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(usb_c.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(usb_c.o)
+ .text.__usb_interrupt_bulk_message
+                0x00000000       0xf0 ../../libios/libios.a(usb_c.o)
+ .text.USB_FreeDescriptors.part.0
+                0x00000000       0xf4 ../../libios/libios.a(usb_c.o)
+ .text.USB_GetDeviceDescription
+                0x00000000       0x58 ../../libios/libios.a(usb_c.o)
+ .text.USB_GetDescriptors
+                0x00000000      0x3ec ../../libios/libios.a(usb_c.o)
+ .text.USB_GetHIDDescriptor
+                0x00000000       0x80 ../../libios/libios.a(usb_c.o)
+ .text.USB_FreeDescriptors
+                0x00000000       0x20 ../../libios/libios.a(usb_c.o)
+ .text.USB_GetAsciiString
+                0x00000000       0xd8 ../../libios/libios.a(usb_c.o)
+ .text.USB_ReadIntrMsg
+                0x00000000       0x40 ../../libios/libios.a(usb_c.o)
+ .text.USB_WriteIntrMsg
+                0x00000000       0x34 ../../libios/libios.a(usb_c.o)
+ .text.USB_ReadBlkMsg
+                0x00000000       0x40 ../../libios/libios.a(usb_c.o)
+ .text.USB_WriteBlkMsg
+                0x00000000       0x54 ../../libios/libios.a(usb_c.o)
+ .text.USB_SuspendDevice
+                0x00000000       0x18 ../../libios/libios.a(usb_c.o)
+ .text.USB_ResumeDevice
+                0x00000000       0x18 ../../libios/libios.a(usb_c.o)
+ .text.USB_GetDeviceList
+                0x00000000       0x98 ../../libios/libios.a(usb_c.o)
+ .text.USB_SetConfiguration
+                0x00000000       0x1c ../../libios/libios.a(usb_c.o)
+ .text.USB_GetConfiguration
+                0x00000000       0x44 ../../libios/libios.a(usb_c.o)
+ .text.USB_SetAlternativeInterface
+                0x00000000       0x28 ../../libios/libios.a(usb_c.o)
+ .text.USB_ClearHalt
+                0x00000000       0x1c ../../libios/libios.a(usb_c.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(asyscalls_s.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(asyscalls_s.o)
+ .text          0x00000000        0x0 ../../libios/libios.a(gpio_c.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(gpio_c.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(gpio_c.o)
+ .text.gpio_set_off
+                0x00000000       0x44 ../../libios/libios.a(gpio_c.o)
+ .text.gpio_set_toggle
+                0x00000000       0x4c ../../libios/libios.a(gpio_c.o)
+ .text.gpio_get
+                0x00000000       0x40 ../../libios/libios.a(gpio_c.o)
+ .text.gpio_enable_toggle
+                0x00000000       0x10 ../../libios/libios.a(gpio_c.o)
+ .text.gpio_disable_toggle
+                0x00000000       0x10 ../../libios/libios.a(gpio_c.o)
+ .data.toggle_mask
+                0x00000000        0x4 ../../libios/libios.a(gpio_c.o)
+ .text          0x00000000        0x0 ../../libios/libios.a(lock_c.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(lock_c.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(lock_c.o)
+ .text.DestroyLock
+                0x00000000        0x8 ../../libios/libios.a(lock_c.o)
+ .text          0x00000000        0x0 ../../libios/libios.a(lwp_heap_c.o)
+ .data          0x00000000        0x0 ../../libios/libios.a(lwp_heap_c.o)
+ .bss           0x00000000        0x0 ../../libios/libios.a(lwp_heap_c.o)
+ .text.__lwp_heap_realloc
+                0x00000000       0x68 ../../libios/libios.a(lwp_heap_c.o)
+ .text.__lwp_heap_getinfo
+                0x00000000       0x60 ../../libios/libios.a(lwp_heap_c.o)
+ .text          0x00000000      0x11c C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+ .text.__set_ctype
+                0x00000000        0xc C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+ .text          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+ .data          0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcmp.o)
+ .bss           0x00000000        0x0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ios_info_table   0x00000000         0x000000d4
+exe              0x13740000         0x00008000         xrw
+ram              0x13748000         0x00040000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD cache_cpp.o
+LOAD dip_cpp.o
+LOAD diprovider_cpp.o
+LOAD emu_cpp.o
+LOAD fileprovider_cpp.o
+LOAD logging_cpp.o
+LOAD main_cpp.o
+LOAD rijndael_cpp.o
+LOAD usbhid_cpp.o
+LOAD binfile_c.o
+LOAD crt0_s.o
+LOAD ../../filemodule/libfile/libfile_ios.a
+LOAD ../../libios/libios.a
+LOAD C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libstdc++.a
+LOAD C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libm.a
+START GROUP
+LOAD C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a
+LOAD C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a
+LOAD C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libc.a
+LOAD C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libsysbase.a
+END GROUP
+                0x13788000                        __ram_end__ = 0x13788000
+
+.debug_aranges  0x00000000      0x940
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xc0 dip_cpp.o
+ .debug_aranges
+                0x000000c0      0x2e0 emu_cpp.o
+ .debug_aranges
+                0x000003a0       0x20 logging_cpp.o
+ .debug_aranges
+                0x000003c0       0x20 main_cpp.o
+ .debug_aranges
+                0x000003e0       0xc0 usbhid_cpp.o
+ .debug_aranges
+                0x000004a0       0x68 binfile_c.o
+ .debug_aranges
+                0x00000508       0x20 crt0_s.o
+ .debug_aranges
+                0x00000528      0x118 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_aranges
+                0x00000640       0xd8 ../../libios/libios.a(proxiios_cpp.o)
+ .debug_aranges
+                0x00000718       0x60 ../../libios/libios.a(mem_c.o)
+ .debug_aranges
+                0x00000778       0xe0 ../../libios/libios.a(usb_c.o)
+ .debug_aranges
+                0x00000858       0x20 ../../libios/libios.a(asyscalls_s.o)
+ .debug_aranges
+                0x00000878       0x48 ../../libios/libios.a(gpio_c.o)
+ .debug_aranges
+                0x000008c0       0x38 ../../libios/libios.a(lock_c.o)
+ .debug_aranges
+                0x000008f8       0x48 ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x2222e
+ *(.debug_info)
+ .debug_info    0x00000000     0x31c7 dip_cpp.o
+ .debug_info    0x000031c7    0x12195 emu_cpp.o
+ .debug_info    0x0001535c      0x12e logging_cpp.o
+ .debug_info    0x0001548a     0x259e main_cpp.o
+ .debug_info    0x00017a28     0x1f0a usbhid_cpp.o
+ .debug_info    0x00019932     0x1485 binfile_c.o
+ .debug_info    0x0001adb7       0x24 crt0_s.o
+ .debug_info    0x0001addb     0x1997 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_info    0x0001c772     0x14ad ../../libios/libios.a(proxiios_cpp.o)
+ .debug_info    0x0001dc1f      0x869 ../../libios/libios.a(mem_c.o)
+ .debug_info    0x0001e488     0x278f ../../libios/libios.a(usb_c.o)
+ .debug_info    0x00020c17       0x25 ../../libios/libios.a(asyscalls_s.o)
+ .debug_info    0x00020c3c      0x59d ../../libios/libios.a(gpio_c.o)
+ .debug_info    0x000211d9      0x2a4 ../../libios/libios.a(lock_c.o)
+ .debug_info    0x0002147d      0xdb1 ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_abbrev   0x00000000     0x3b07
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x736 dip_cpp.o
+ .debug_abbrev  0x00000736      0xdcb emu_cpp.o
+ .debug_abbrev  0x00001501       0xde logging_cpp.o
+ .debug_abbrev  0x000015df      0x7c8 main_cpp.o
+ .debug_abbrev  0x00001da7      0x59b usbhid_cpp.o
+ .debug_abbrev  0x00002342      0x3fb binfile_c.o
+ .debug_abbrev  0x0000273d       0x14 crt0_s.o
+ .debug_abbrev  0x00002751      0x3ac ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_abbrev  0x00002afd      0x400 ../../libios/libios.a(proxiios_cpp.o)
+ .debug_abbrev  0x00002efd      0x255 ../../libios/libios.a(mem_c.o)
+ .debug_abbrev  0x00003152      0x3e9 ../../libios/libios.a(usb_c.o)
+ .debug_abbrev  0x0000353b       0x14 ../../libios/libios.a(asyscalls_s.o)
+ .debug_abbrev  0x0000354f      0x1b4 ../../libios/libios.a(gpio_c.o)
+ .debug_abbrev  0x00003703      0x132 ../../libios/libios.a(lock_c.o)
+ .debug_abbrev  0x00003835      0x2d2 ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_line     0x00000000     0xd8b5
+ *(.debug_line)
+ .debug_line    0x00000000     0x1728 dip_cpp.o
+ .debug_line    0x00001728     0x66d4 emu_cpp.o
+ .debug_line    0x00007dfc      0x18b logging_cpp.o
+ .debug_line    0x00007f87      0x559 main_cpp.o
+ .debug_line    0x000084e0      0xd89 usbhid_cpp.o
+ .debug_line    0x00009269      0xc4e binfile_c.o
+ .debug_line    0x00009eb7       0x63 crt0_s.o
+ .debug_line    0x00009f1a      0xbc5 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_line    0x0000aadf      0x89f ../../libios/libios.a(proxiios_cpp.o)
+ .debug_line    0x0000b37e      0x3a0 ../../libios/libios.a(mem_c.o)
+ .debug_line    0x0000b71e     0x1260 ../../libios/libios.a(usb_c.o)
+ .debug_line    0x0000c97e       0x81 ../../libios/libios.a(asyscalls_s.o)
+ .debug_line    0x0000c9ff      0x330 ../../libios/libios.a(gpio_c.o)
+ .debug_line    0x0000cd2f      0x1e9 ../../libios/libios.a(lock_c.o)
+ .debug_line    0x0000cf18      0x99d ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_frame    0x00000000     0x1d0c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x290 dip_cpp.o
+ .debug_frame   0x00000290      0xa88 emu_cpp.o
+ .debug_frame   0x00000d18       0x28 logging_cpp.o
+ .debug_frame   0x00000d40       0x2c main_cpp.o
+ .debug_frame   0x00000d6c      0x238 usbhid_cpp.o
+ .debug_frame   0x00000fa4      0x158 binfile_c.o
+ .debug_frame   0x000010fc      0x3c8 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_frame   0x000014c4      0x24c ../../libios/libios.a(proxiios_cpp.o)
+ .debug_frame   0x00001710      0x108 ../../libios/libios.a(mem_c.o)
+ .debug_frame   0x00001818      0x31c ../../libios/libios.a(usb_c.o)
+ .debug_frame   0x00001b34       0xa0 ../../libios/libios.a(gpio_c.o)
+ .debug_frame   0x00001bd4       0x7c ../../libios/libios.a(lock_c.o)
+ .debug_frame   0x00001c50       0xbc ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_str      0x00000000     0xaf77
+ *(.debug_str)
+ .debug_str     0x00000000     0xaf77 dip_cpp.o
+                               0x1430 (size before relaxing)
+ .debug_str     0x0000af77     0x8677 emu_cpp.o
+ .debug_str     0x0000af77      0x2cc logging_cpp.o
+ .debug_str     0x0000af77     0x3854 main_cpp.o
+ .debug_str     0x0000af77      0xed7 usbhid_cpp.o
+ .debug_str     0x0000af77      0x684 binfile_c.o
+ .debug_str     0x0000af77       0xce crt0_s.o
+ .debug_str     0x0000af77      0x81f ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_str     0x0000af77      0xaa4 ../../libios/libios.a(proxiios_cpp.o)
+ .debug_str     0x0000af77      0x452 ../../libios/libios.a(mem_c.o)
+ .debug_str     0x0000af77      0xb09 ../../libios/libios.a(usb_c.o)
+ .debug_str     0x0000af77       0xcd ../../libios/libios.a(asyscalls_s.o)
+ .debug_str     0x0000af77      0x2ba ../../libios/libios.a(gpio_c.o)
+ .debug_str     0x0000af77      0x2c7 ../../libios/libios.a(lock_c.o)
+ .debug_str     0x0000af77      0x535 ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.note.arm.ident
+ *(.note.arm.ident)
+
+.ios_info_table
+                0x00000000       0x34
+                0x00000000                        . = .
+ *(.ios_info_table)
+ .ios_info_table
+                0x00000000       0x34 crt0_s.o
+                0x00000000                ios_info_table
+
+.init           0x13740000       0x48
+                0x13740000                        . = .
+ *(.init)
+ .init          0x13740000       0x48 crt0_s.o
+                0x13740000                _start
+                0x1374001c                _FS_ioctl_ret_
+
+.text           0x13740048     0x6a38
+ *(.text*)
+ .text._ZN8ProxiIOS6Module14HandleCallbackEP10ipcmessage
+                0x13740048        0x4 dip_cpp.o
+                0x13740048                ProxiIOS::Module::HandleCallback(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule10HandleReadEP10ipcmessage
+                0x1374004c        0xc dip_cpp.o
+                0x1374004c                ProxiIOS::ProxyModule::HandleRead(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule11HandleWriteEP10ipcmessage
+                0x13740058        0xc dip_cpp.o
+                0x13740058                ProxiIOS::ProxyModule::HandleWrite(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule10HandleSeekEP10ipcmessage
+                0x13740064        0xc dip_cpp.o
+                0x13740064                ProxiIOS::ProxyModule::HandleSeek(ipcmessage*)
+ .text._ZN8ProxiIOS3DIP3DIP10HandleOpenEP10ipcmessage
+                0x13740070       0x30 dip_cpp.o
+                0x13740070                ProxiIOS::DIP::DIP::HandleOpen(ipcmessage*)
+ .text._ZN8ProxiIOS3DIP3DIP12ForwardIoctlEP10ipcmessage
+                0x137400a0        0x8 dip_cpp.o
+                0x137400a0                ProxiIOS::DIP::DIP::ForwardIoctl(ipcmessage*)
+ .text._ZN8ProxiIOS3DIP3DIP13ForwardIoctlvEP10ipcmessage
+                0x137400a8        0x8 dip_cpp.o
+                0x137400a8                ProxiIOS::DIP::DIP::ForwardIoctlv(ipcmessage*)
+ .text._ZN8ProxiIOS3DIP3DIP11HandleOtherEjRiRb
+                0x137400b0       0x90 dip_cpp.o
+                0x137400b0                ProxiIOS::DIP::DIP::HandleOther(unsigned int, int&, bool&)
+ .text._ZN8ProxiIOS3DIP3DIPC2Ev
+                0x13740140       0xbc dip_cpp.o
+                0x13740140                ProxiIOS::DIP::DIP::DIP()
+                0x13740140                ProxiIOS::DIP::DIP::DIP()
+ .text._ZN8ProxiIOS3DIP3DIP7CopyDirEPKcS3_
+                0x137401fc      0x1fc dip_cpp.o
+                0x137401fc                ProxiIOS::DIP::DIP::CopyDir(char const*, char const*)
+ .text._ZN8ProxiIOS3DIP3DIP5DoEmuEPKcS3_PKi
+                0x137403f8      0x168 dip_cpp.o
+                0x137403f8                ProxiIOS::DIP::DIP::DoEmu(char const*, char const*, int const*)
+ .text._ZN8ProxiIOS3DIP3DIP12HandleIoctlvEP10ipcmessage
+                0x13740560      0x140 dip_cpp.o
+                0x13740560                ProxiIOS::DIP::DIP::HandleIoctlv(ipcmessage*)
+ .text._ZN8ProxiIOS3DIP3DIP10ReallocateEii
+                0x137406a0       0x70 dip_cpp.o
+                0x137406a0                ProxiIOS::DIP::DIP::Reallocate(int, int)
+ .text._ZN8ProxiIOS3DIP3DIP9FindPatchEixjPPvi
+                0x13740710       0xf8 dip_cpp.o
+                0x13740710                ProxiIOS::DIP::DIP::FindPatch(int, long long, unsigned int, void**, int)
+ .text._ZN8ProxiIOS3DIP3DIP7GetFileEs
+                0x13740808       0x80 dip_cpp.o
+                0x13740808                ProxiIOS::DIP::DIP::GetFile(short)
+ .text._ZN8ProxiIOS3DIP3DIP8ReadFileEsjPvj
+                0x13740888       0xe8 dip_cpp.o
+                0x13740888                ProxiIOS::DIP::DIP::ReadFile(short, unsigned int, void*, unsigned int)
+ .text._ZN8ProxiIOS3DIP3DIP11HandleIoctlEP10ipcmessage
+                0x13740970      0x61c dip_cpp.o
+                0x13740970                ProxiIOS::DIP::DIP::HandleIoctl(ipcmessage*)
+ .text._ZN8ProxiIOS6Module11HandleCloseEP10ipcmessage
+                0x13740f8c        0xc emu_cpp.o
+                0x13740f8c                ProxiIOS::Module::HandleClose(ipcmessage*)
+ .text._ZN8ProxiIOS6Module10HandleReadEP10ipcmessage
+                0x13740f98        0x8 emu_cpp.o
+                0x13740f98                ProxiIOS::Module::HandleRead(ipcmessage*)
+ .text._ZN8ProxiIOS6Module11HandleWriteEP10ipcmessage
+                0x13740fa0        0x8 emu_cpp.o
+                0x13740fa0                ProxiIOS::Module::HandleWrite(ipcmessage*)
+ .text._ZN8ProxiIOS6Module10HandleSeekEP10ipcmessage
+                0x13740fa8        0x8 emu_cpp.o
+                0x13740fa8                ProxiIOS::Module::HandleSeek(ipcmessage*)
+ .text._ZN8ProxiIOS6Module11HandleOtherEjRiRb
+                0x13740fb0        0xc emu_cpp.o
+                0x13740fb0                ProxiIOS::Module::HandleOther(unsigned int, int&, bool&)
+ .text._ZN8ProxiIOS3EMU7RiivDir8MoveFromEPKcS3_
+                0x13740fbc        0x8 emu_cpp.o
+                0x13740fbc                ProxiIOS::EMU::RiivDir::MoveFrom(char const*, char const*)
+                0x13740fbc                ProxiIOS::EMU::TicketDir::MoveTo(char const*, char const*)
+                0x13740fbc                ProxiIOS::EMU::TicketDir::MoveFrom(char const*, char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir6ExistsEPKc
+                0x13740fc4        0x4 emu_cpp.o
+                0x13740fc4                ProxiIOS::EMU::TicketDir::Exists(char const*)
+                0x13740fc4                ProxiIOS::EMU::AppDir::Exists(char const*)
+ .text._ZN8ProxiIOS3EMU9TicketDir7ReadDirEPKcPjPcPKj
+                0x13740fc8        0x8 emu_cpp.o
+                0x13740fc8                ProxiIOS::EMU::TicketDir::ReadDir(char const*, unsigned int*, char*, unsigned int const*)
+                0x13740fc8                ProxiIOS::EMU::TicketDir::GetUsage(char const*, unsigned int*, unsigned int*, char*)
+ .text._ZN8ProxiIOS3EMU3EMU10emu_threadEPv
+                0x13740fd0       0x50 emu_cpp.o
+                0x13740fd0                ProxiIOS::EMU::EMU::emu_thread(void*)
+ .text._ZL14FilesystemHookPK10ipcmessagePi
+                0x13741020      0x1f8 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU7RiivDir6ExistsEPKc
+                0x13741218       0x1c emu_cpp.o
+                0x13741218                ProxiIOS::EMU::RiivDir::Exists(char const*)
+ .text._ZN8ProxiIOS3EMU8RiivFileD2Ev
+                0x13741234       0x20 emu_cpp.o
+                0x13741234                ProxiIOS::EMU::RiivFile::~RiivFile()
+                0x13741234                ProxiIOS::EMU::RiivFile::~RiivFile()
+ .text._ZN8ProxiIOS3EMU7AppFile5WriteEPKvi
+                0x13741254       0x18 emu_cpp.o
+                0x13741254                ProxiIOS::EMU::AppFile::Write(void const*, int)
+ .text._ZN8ProxiIOS3EMU7RiivDir17GetTranslatedPathEPKc
+                0x1374126c       0x58 emu_cpp.o
+                0x1374126c                ProxiIOS::EMU::RiivDir::GetTranslatedPath(char const*)
+ .text._ZN8ProxiIOS3EMU7RiivDir10CreateFileEPKc
+                0x137412c4        0xc emu_cpp.o
+                0x137412c4                ProxiIOS::EMU::RiivDir::CreateFile(char const*)
+ .text._ZN8ProxiIOS3EMU7RiivDir6DeleteEPKc
+                0x137412d0        0xc emu_cpp.o
+                0x137412d0                ProxiIOS::EMU::RiivDir::Delete(char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir6DeleteEPKc
+                0x137412dc       0x48 emu_cpp.o
+                0x137412dc                ProxiIOS::EMU::AppDir::Delete(char const*)
+ .text._ZN8ProxiIOS3EMU7RiivDir7ReadDirEPKcPjPcPKj
+                0x13741324      0x12c emu_cpp.o
+                0x13741324                ProxiIOS::EMU::RiivDir::ReadDir(char const*, unsigned int*, char*, unsigned int const*)
+ .text._ZN8ProxiIOS3EMU7RiivDir8GetUsageEPKcPjS4_Pc
+                0x13741450       0xe0 emu_cpp.o
+                0x13741450                ProxiIOS::EMU::RiivDir::GetUsage(char const*, unsigned int*, unsigned int*, char*)
+ .text._ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPjSt6vectorIjSaIjEEEENS0_5__ops16_Iter_equals_valIKjEEET_SB_SB_T0_St26random_access_iterator_tag.isra.0
+                0x13741530       0x74 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU8RiivFileD0Ev
+                0x137415a4       0x28 emu_cpp.o
+                0x137415a4                ProxiIOS::EMU::RiivFile::~RiivFile()
+ .text._ZN8ProxiIOS3EMU7AppFileD2Ev
+                0x137415cc       0x34 emu_cpp.o
+                0x137415cc                ProxiIOS::EMU::AppFile::~AppFile()
+                0x137415cc                ProxiIOS::EMU::AppFile::~AppFile()
+ .text._ZN8ProxiIOS3EMU7AppFileD0Ev
+                0x13741600       0x38 emu_cpp.o
+                0x13741600                ProxiIOS::EMU::AppFile::~AppFile()
+ .text._ZN8ProxiIOS3EMU8RiivFile5WriteEPKvi
+                0x13741638       0x2c emu_cpp.o
+                0x13741638                ProxiIOS::EMU::RiivFile::Write(void const*, int)
+ .text._ZN8ProxiIOS3EMU8RiivFile4ReadEPvi
+                0x13741664       0x2c emu_cpp.o
+                0x13741664                ProxiIOS::EMU::RiivFile::Read(void*, int)
+ .text._ZN8ProxiIOS3EMU8RiivFile4SeekEii
+                0x13741690       0x2c emu_cpp.o
+                0x13741690                ProxiIOS::EMU::RiivFile::Seek(int, int)
+ .text._ZN8ProxiIOS3EMU7VFFFile5WriteEPKvi
+                0x137416bc       0xb0 emu_cpp.o
+                0x137416bc                ProxiIOS::EMU::VFFFile::Write(void const*, int)
+ .text._ZN8ProxiIOS3EMU7VFFFileD2Ev
+                0x1374176c       0x5c emu_cpp.o
+                0x1374176c                ProxiIOS::EMU::VFFFile::~VFFFile()
+                0x1374176c                ProxiIOS::EMU::VFFFile::~VFFFile()
+ .text._ZN8ProxiIOS3EMU7VFFFileD0Ev
+                0x137417c8       0x60 emu_cpp.o
+                0x137417c8                ProxiIOS::EMU::VFFFile::~VFFFile()
+ .text._ZN8ProxiIOS3EMU7VFFFile4ReadEPvi
+                0x13741828       0x64 emu_cpp.o
+                0x13741828                ProxiIOS::EMU::VFFFile::Read(void*, int)
+ .text._ZN8ProxiIOS3EMU7VFFFile4SeekEii
+                0x1374188c       0x64 emu_cpp.o
+                0x1374188c                ProxiIOS::EMU::VFFFile::Seek(int, int)
+ .text._ZN8ProxiIOS3EMU7RiivDir8OpenFileEPKci
+                0x137418f0       0xac emu_cpp.o
+                0x137418f0                ProxiIOS::EMU::RiivDir::OpenFile(char const*, int)
+ .text._ZN8ProxiIOS3EMU9TitleFile5WriteEPKvi
+                0x1374199c       0x64 emu_cpp.o
+                0x1374199c                ProxiIOS::EMU::TitleFile::Write(void const*, int)
+ .text._ZN8ProxiIOS3EMU9TitleFileD2Ev
+                0x13741a00       0x68 emu_cpp.o
+                0x13741a00                ProxiIOS::EMU::TitleFile::~TitleFile()
+                0x13741a00                ProxiIOS::EMU::TitleFile::~TitleFile()
+ .text._ZN8ProxiIOS3EMU9TitleFileD0Ev
+                0x13741a68       0x6c emu_cpp.o
+                0x13741a68                ProxiIOS::EMU::TitleFile::~TitleFile()
+ .text._ZN8ProxiIOS3EMU9TitleFile4ReadEPvi
+                0x13741ad4       0x80 emu_cpp.o
+                0x13741ad4                ProxiIOS::EMU::TitleFile::Read(void*, int)
+ .text._ZN8ProxiIOS3EMUL11ISFS_DeleteEPKc
+                0x13741b54       0xcc emu_cpp.o
+ .text._ZN8ProxiIOS3EMU9TicketDir6DeleteEPKc
+                0x13741c20        0xc emu_cpp.o
+                0x13741c20                ProxiIOS::EMU::TicketDir::Delete(char const*)
+ .text._ZN8ProxiIOS3EMUL15ISFS_CreateFileEPKchhhh.constprop.0
+                0x13741c2c       0xe4 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU9TicketDir10CreateFileEPKc
+                0x13741d10        0xc emu_cpp.o
+                0x13741d10                ProxiIOS::EMU::TicketDir::CreateFile(char const*)
+ .text._ZN8ProxiIOS3EMU9TitleFile4SeekEii
+                0x13741d1c       0x70 emu_cpp.o
+                0x13741d1c                ProxiIOS::EMU::TitleFile::Seek(int, int)
+ .text._ZN8ProxiIOS3EMU6AppDir8MoveFromEPKcS3_
+                0x13741d8c       0xfc emu_cpp.o
+                0x13741d8c                ProxiIOS::EMU::AppDir::MoveFrom(char const*, char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir7ReadDirEPKcPjPcPKj
+                0x13741e88      0x134 emu_cpp.o
+                0x13741e88                ProxiIOS::EMU::AppDir::ReadDir(char const*, unsigned int*, char*, unsigned int const*)
+ .text._ZN8ProxiIOS3EMU9TicketDir17GetTranslatedPathEPKc
+                0x13741fbc      0x128 emu_cpp.o
+                0x13741fbc                ProxiIOS::EMU::TicketDir::GetTranslatedPath(char const*)
+ .text._ZN8ProxiIOS3EMU7RiivDir6MoveToEPKcS3_
+                0x137420e4      0x2e0 emu_cpp.o
+                0x137420e4                ProxiIOS::EMU::RiivDir::MoveTo(char const*, char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir10InitializeEv.part.0
+                0x137423c4      0x2a8 emu_cpp.o
+ .text._ZN8ProxiIOS3EMU3EMU5StartEv
+                0x1374266c        0xc emu_cpp.o
+                0x1374266c                ProxiIOS::EMU::EMU::Start()
+ .text._ZN8ProxiIOS3EMU3EMU7TryOpenEPKcjPPNS0_8RiivFileE
+                0x13742678       0x64 emu_cpp.o
+                0x13742678                ProxiIOS::EMU::EMU::TryOpen(char const*, unsigned int, ProxiIOS::EMU::RiivFile**)
+ .text._ZN8ProxiIOS3EMU7AppFile4OpenEv
+                0x137426dc       0x40 emu_cpp.o
+                0x137426dc                ProxiIOS::EMU::AppFile::Open()
+ .text._ZN8ProxiIOS3EMU7AppFile4ReadEPvi
+                0x1374271c       0x34 emu_cpp.o
+                0x1374271c                ProxiIOS::EMU::AppFile::Read(void*, int)
+ .text._ZN8ProxiIOS3EMU7AppFile4SeekEii
+                0x13742750       0x28 emu_cpp.o
+                0x13742750                ProxiIOS::EMU::AppFile::Seek(int, int)
+ .text._ZN8ProxiIOS3EMU7AppFileC2EPKctPj
+                0x13742778       0x98 emu_cpp.o
+                0x13742778                ProxiIOS::EMU::AppFile::AppFile(char const*, unsigned short, unsigned int*)
+                0x13742778                ProxiIOS::EMU::AppFile::AppFile(char const*, unsigned short, unsigned int*)
+ .text._ZN8ProxiIOS3EMU7RiivDirC2EPKcS3_
+                0x13742810       0x4c emu_cpp.o
+                0x13742810                ProxiIOS::EMU::RiivDir::RiivDir(char const*, char const*)
+                0x13742810                ProxiIOS::EMU::RiivDir::RiivDir(char const*, char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir8AppToCIDEPKc
+                0x1374285c       0x60 emu_cpp.o
+                0x1374285c                ProxiIOS::EMU::AppDir::AppToCID(char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir6MoveToEPKcS3_
+                0x137428bc      0x5f0 emu_cpp.o
+                0x137428bc                ProxiIOS::EMU::AppDir::MoveTo(char const*, char const*)
+ .text._ZN8ProxiIOS3EMU9TitleFile9CreateTmdEPKci
+                0x13742eac      0x250 emu_cpp.o
+                0x13742eac                ProxiIOS::EMU::TitleFile::CreateTmd(char const*, int)
+ .text._ZN8ProxiIOS3EMU9TitleFile9CreateTikEPKci
+                0x137430fc      0x1b0 emu_cpp.o
+                0x137430fc                ProxiIOS::EMU::TitleFile::CreateTik(char const*, int)
+ .text._ZN8ProxiIOS3EMU9TitleFileC2EPKciNS1_4TypeE
+                0x137432ac       0xb8 emu_cpp.o
+                0x137432ac                ProxiIOS::EMU::TitleFile::TitleFile(char const*, int, ProxiIOS::EMU::TitleFile::Type)
+                0x137432ac                ProxiIOS::EMU::TitleFile::TitleFile(char const*, int, ProxiIOS::EMU::TitleFile::Type)
+ .text._ZN8ProxiIOS3EMU9TicketDir8OpenFileEPKci
+                0x13743364       0x7c emu_cpp.o
+                0x13743364                ProxiIOS::EMU::TicketDir::OpenFile(char const*, int)
+ .text._ZN8ProxiIOS3EMU9TitleFile13IsTmdHookPathEPKc
+                0x137433e0       0xb8 emu_cpp.o
+                0x137433e0                ProxiIOS::EMU::TitleFile::IsTmdHookPath(char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir17GetTranslatedPathEPKc
+                0x13743498      0x134 emu_cpp.o
+                0x13743498                ProxiIOS::EMU::AppDir::GetTranslatedPath(char const*)
+ .text._ZN8ProxiIOS3EMU6AppDir8OpenFileEPKci
+                0x137435cc       0x64 emu_cpp.o
+                0x137435cc                ProxiIOS::EMU::AppDir::OpenFile(char const*, int)
+ .text._ZNSt6vectorIPN8ProxiIOS3EMU7RiivDirESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_
+                0x13743630       0xe8 emu_cpp.o
+                0x13743630                void std::vector<ProxiIOS::EMU::RiivDir*, std::allocator<ProxiIOS::EMU::RiivDir*> >::_M_realloc_insert<ProxiIOS::EMU::RiivDir* const&>(__gnu_cxx::__normal_iterator<ProxiIOS::EMU::RiivDir**, std::vector<ProxiIOS::EMU::RiivDir*, std::allocator<ProxiIOS::EMU::RiivDir*> > >, ProxiIOS::EMU::RiivDir* const&)
+ .text._ZN8ProxiIOS3EMU3EMU16CheckForDLCTitleEPKc
+                0x13743718      0x1c4 emu_cpp.o
+                0x13743718                ProxiIOS::EMU::EMU::CheckForDLCTitle(char const*)
+ .text._ZN8ProxiIOS3EMU3EMU15HandleFSMessageEP10ipcmessagePi
+                0x137438dc      0x614 emu_cpp.o
+                0x137438dc                ProxiIOS::EMU::EMU::HandleFSMessage(ipcmessage*, int*)
+ .text._ZN8ProxiIOS3EMU3EMU12HandleIoctlvEP10ipcmessage
+                0x13743ef0       0x88 emu_cpp.o
+                0x13743ef0                ProxiIOS::EMU::EMU::HandleIoctlv(ipcmessage*)
+ .text._ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_
+                0x13743f78       0xe8 emu_cpp.o
+                0x13743f78                void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int const&)
+ .text._ZN8ProxiIOS3EMU3EMU11HandleIoctlEP10ipcmessage
+                0x13744060      0x118 emu_cpp.o
+                0x13744060                ProxiIOS::EMU::EMU::HandleIoctl(ipcmessage*)
+ .text._ZNSt6vectorIPN8ProxiIOS3EMU7RiivDirESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_
+                0x13744178       0xe8 emu_cpp.o
+                0x13744178                void std::vector<ProxiIOS::EMU::RiivDir*, std::allocator<ProxiIOS::EMU::RiivDir*> >::_M_realloc_insert<ProxiIOS::EMU::RiivDir*>(__gnu_cxx::__normal_iterator<ProxiIOS::EMU::RiivDir**, std::vector<ProxiIOS::EMU::RiivDir*, std::allocator<ProxiIOS::EMU::RiivDir*> > >, ProxiIOS::EMU::RiivDir*&&)
+ .text._ZN8ProxiIOS3EMU3EMUC2EPhi
+                0x13744260       0x98 emu_cpp.o
+                0x13744260                ProxiIOS::EMU::EMU::EMU(unsigned char*, int)
+                0x13744260                ProxiIOS::EMU::EMU::EMU(unsigned char*, int)
+ .text._ZSt15__logging_abortPKc
+                0x137442f8        0x8 logging_cpp.o
+                0x137442f8                std::__logging_abort(char const*)
+ .text.startup.main
+                0x13744300       0x78 main_cpp.o
+                0x13744300                main
+ .text._ZN8ProxiIOS11ProxyModule11HandleIoctlEP10ipcmessage
+                0x13744378        0xc usbhid_cpp.o
+                0x13744378                ProxiIOS::ProxyModule::HandleIoctl(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule12HandleIoctlvEP10ipcmessage
+                0x13744384        0xc usbhid_cpp.o
+                0x13744384                ProxiIOS::ProxyModule::HandleIoctlv(ipcmessage*)
+ .text._ZN8ProxiIOS3USB3HID10hid_threadEPv
+                0x13744390       0x48 usbhid_cpp.o
+                0x13744390                ProxiIOS::USB::HID::hid_thread(void*)
+ .text._ZN8ProxiIOS3USB3HID10HandleOpenEP10ipcmessage
+                0x137443d8       0x54 usbhid_cpp.o
+                0x137443d8                ProxiIOS::USB::HID::HandleOpen(ipcmessage*)
+ .text._ZN8ProxiIOS3USB3HIDC2EPhi
+                0x1374442c       0x80 usbhid_cpp.o
+                0x1374442c                ProxiIOS::USB::HID::HID(unsigned char*, int)
+                0x1374442c                ProxiIOS::USB::HID::HID(unsigned char*, int)
+ .text._ZN8ProxiIOS3USB3HID5StartEv
+                0x137444ac        0xc usbhid_cpp.o
+                0x137444ac                ProxiIOS::USB::HID::Start()
+ .text._ZN8ProxiIOS3USB3HID11PokeMessageEP10ipcmessage
+                0x137444b8       0xcc usbhid_cpp.o
+                0x137444b8                ProxiIOS::USB::HID::PokeMessage(ipcmessage*)
+ .text._ZN8ProxiIOS3USB3HID15PPCDeviceChangeEv
+                0x13744584      0x128 usbhid_cpp.o
+                0x13744584                ProxiIOS::USB::HID::PPCDeviceChange()
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums9GetReportEPhj
+                0x137446ac      0x114 usbhid_cpp.o
+                0x137446ac                ProxiIOS::USB::XBOX360_Drums::GetReport(unsigned char*, unsigned int)
+ .text._ZN8ProxiIOS3USB13XBOX360_Drums9SetOutputEPKhj
+                0x137447c0       0x7c usbhid_cpp.o
+                0x137447c0                ProxiIOS::USB::XBOX360_Drums::SetOutput(unsigned char const*, unsigned int)
+ .text._ZN8ProxiIOS3USB3HID11HandleOtherEjRiRb
+                0x1374483c      0x1e4 usbhid_cpp.o
+                0x1374483c                ProxiIOS::USB::HID::HandleOther(unsigned int, int&, bool&)
+ .text._ZN8ProxiIOS3USB3HID14HandleCallbackEP10ipcmessage
+                0x13744a20      0x14c usbhid_cpp.o
+                0x13744a20                ProxiIOS::USB::HID::HandleCallback(ipcmessage*)
+ .text.CloseBin
+                0x13744b6c       0xd0 binfile_c.o
+                0x13744b6c                CloseBin
+ .text.SeekBin  0x13744c3c       0xe4 binfile_c.o
+                0x13744c3c                SeekBin
+ .text.OpenBinRead
+                0x13744d20       0x6c binfile_c.o
+                0x13744d20                OpenBinRead
+ .text.ReadBin  0x13744d8c      0x104 binfile_c.o
+                0x13744d8c                ReadBin
+ .text.CreateBinFile
+                0x13744e90       0xb4 binfile_c.o
+                0x13744e90                CreateBinFile
+ .text.WriteBin
+                0x13744f44      0x104 binfile_c.o
+                0x13744f44                WriteBin
+ .text.File_Init
+                0x13745048       0x20 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745048                File_Init
+ .text.File_Stat
+                0x13745068       0x5c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745068                File_Stat
+ .text.File_CreateFile
+                0x137450c4       0x3c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x137450c4                File_CreateFile
+ .text.File_Delete
+                0x13745100       0x3c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745100                File_Delete
+ .text.File_Rename
+                0x1374513c       0x5c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x1374513c                File_Rename
+ .text.File_CreateDir
+                0x13745198       0x3c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745198                File_CreateDir
+ .text.File_OpenDir
+                0x137451d4       0x3c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x137451d4                File_OpenDir
+ .text.File_NextDir
+                0x13745210       0x98 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745210                File_NextDir
+ .text.File_CloseDir
+                0x137452a8       0x3c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x137452a8                File_CloseDir
+ .text.File_Open
+                0x137452e4       0x80 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x137452e4                File_Open
+ .text.File_Close
+                0x13745364        0x8 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745364                File_Close
+ .text.File_Read
+                0x1374536c       0x18 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x1374536c                File_Read
+ .text.File_Write
+                0x13745384       0x1c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x13745384                File_Write
+ .text.File_Seek
+                0x137453a0        0x8 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x137453a0                File_Seek
+ .text.File_Open_ID
+                0x137453a8       0x8c ../../filemodule/libfile/libfile_ios.a(files_c.o)
+                0x137453a8                File_Open_ID
+ .text._ZN8ProxiIOS6Module11HandleIoctlEP10ipcmessage
+                0x13745434        0x8 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745434                ProxiIOS::Module::HandleIoctl(ipcmessage*)
+ .text._ZN8ProxiIOS6Module12HandleIoctlvEP10ipcmessage
+                0x1374543c        0x8 ../../libios/libios.a(proxiios_cpp.o)
+                0x1374543c                ProxiIOS::Module::HandleIoctlv(ipcmessage*)
+ .text._ZN8ProxiIOS6Module10HandleOpenEP10ipcmessage
+                0x13745444       0x34 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745444                ProxiIOS::Module::HandleOpen(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule10HandleOpenEP10ipcmessage
+                0x13745478       0x48 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745478                ProxiIOS::ProxyModule::HandleOpen(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule11ForwardOpenEP10ipcmessage
+                0x137454c0       0x34 ../../libios/libios.a(proxiios_cpp.o)
+                0x137454c0                ProxiIOS::ProxyModule::ForwardOpen(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule11HandleCloseEP10ipcmessage
+                0x137454f4       0x14 ../../libios/libios.a(proxiios_cpp.o)
+                0x137454f4                ProxiIOS::ProxyModule::HandleClose(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule12ForwardIoctlEP10ipcmessage
+                0x13745508       0x78 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745508                ProxiIOS::ProxyModule::ForwardIoctl(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule13ForwardIoctlvEP10ipcmessage
+                0x13745580       0x64 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745580                ProxiIOS::ProxyModule::ForwardIoctlv(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule11ForwardReadEP10ipcmessage
+                0x137455e4       0x34 ../../libios/libios.a(proxiios_cpp.o)
+                0x137455e4                ProxiIOS::ProxyModule::ForwardRead(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule12ForwardWriteEP10ipcmessage
+                0x13745618       0x34 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745618                ProxiIOS::ProxyModule::ForwardWrite(ipcmessage*)
+ .text._ZN8ProxiIOS11ProxyModule11ForwardSeekEP10ipcmessage
+                0x1374564c       0x34 ../../libios/libios.a(proxiios_cpp.o)
+                0x1374564c                ProxiIOS::ProxyModule::ForwardSeek(ipcmessage*)
+ .text._ZN8ProxiIOS6ModuleC2EPKc
+                0x13745680       0x40 ../../libios/libios.a(proxiios_cpp.o)
+                0x13745680                ProxiIOS::Module::Module(char const*)
+                0x13745680                ProxiIOS::Module::Module(char const*)
+ .text._ZN8ProxiIOS6Module4LoopEv
+                0x137456c0      0x100 ../../libios/libios.a(proxiios_cpp.o)
+                0x137456c0                ProxiIOS::Module::Loop()
+ .text.InitializeHeap
+                0x137457c0       0x3c ../../libios/libios.a(mem_c.o)
+                0x137457c0                InitializeHeap
+ .text.Alloc    0x137457fc       0x2c ../../libios/libios.a(mem_c.o)
+                0x137457fc                Alloc
+ .text.Memalign
+                0x13745828       0x2c ../../libios/libios.a(mem_c.o)
+                0x13745828                Memalign
+ .text.Dealloc  0x13745854       0x28 ../../libios/libios.a(mem_c.o)
+                0x13745854                Dealloc
+ .text.__usb_control_message
+                0x1374587c      0x150 ../../libios/libios.a(usb_c.o)
+ .text.USB_CloseDevice
+                0x137459cc       0x4c ../../libios/libios.a(usb_c.o)
+                0x137459cc                USB_CloseDevice
+ .text.USB_OpenDevice
+                0x13745a18      0x164 ../../libios/libios.a(usb_c.o)
+                0x13745a18                USB_OpenDevice
+ .text.USB_ReadCtrlMsg
+                0x13745b7c       0x4c ../../libios/libios.a(usb_c.o)
+                0x13745b7c                USB_ReadCtrlMsg
+ .text.USB_WriteCtrlMsg
+                0x13745bc8       0x60 ../../libios/libios.a(usb_c.o)
+                0x13745bc8                USB_WriteCtrlMsg
+ .text.USB_DeviceRemovalNotifyAsync
+                0x13745c28       0x1c ../../libios/libios.a(usb_c.o)
+                0x13745c28                USB_DeviceRemovalNotifyAsync
+ .text.USB_DeviceInsertNotifyAsync
+                0x13745c44       0x50 ../../libios/libios.a(usb_c.o)
+                0x13745c44                USB_DeviceInsertNotifyAsync
+ *fill*         0x13745c94        0xc 
+ .text          0x13745ca0      0x1b8 ../../libios/libios.a(asyscalls_s.o)
+                0x13745ca0                os_thread_create
+                0x13745ca8                os_get_thread_id
+                0x13745cb0                os_get_parent_thread_id
+                0x13745cb8                os_thread_continue
+                0x13745cc0                os_thread_stop
+                0x13745cc8                os_thread_yield
+                0x13745cd0                os_thread_get_priority
+                0x13745cd8                os_thread_set_priority
+                0x13745ce0                os_message_queue_create
+                0x13745ce8                os_message_queue_destroy
+                0x13745cf0                os_message_queue_send
+                0x13745cf8                os_message_queue_send_now
+                0x13745d00                os_message_queue_receive
+                0x13745d08                os_create_timer
+                0x13745d10                os_restart_timer
+                0x13745d18                os_stop_timer
+                0x13745d20                os_destroy_timer
+                0x13745d28                os_time_now
+                0x13745d30                os_heap_create
+                0x13745d38                os_heap_destroy
+                0x13745d40                os_heap_alloc
+                0x13745d48                os_heap_alloc_aligned
+                0x13745d50                os_heap_free
+                0x13745d58                os_device_register
+                0x13745d60                os_open
+                0x13745d68                os_close
+                0x13745d70                os_read
+                0x13745d78                os_write
+                0x13745d80                os_seek
+                0x13745d88                os_ioctl
+                0x13745d90                os_ioctlv
+                0x13745d98                os_open_async
+                0x13745da0                os_close_async
+                0x13745da8                os_read_async
+                0x13745db0                os_write_async
+                0x13745db8                os_seek_async
+                0x13745dc0                os_ioctl_async
+                0x13745dc8                os_ioctlv_async
+                0x13745dd0                os_message_queue_ack
+                0x13745dd8                os_sync_before_read
+                0x13745de0                os_sync_after_write
+                0x13745de8                os_debug_print
+                0x13745df0                os_syscall_50
+                0x13745df8                os_poke_gpios
+                0x13745e00                os_create_key
+                0x13745e08                os_destroy_key
+                0x13745e10                os_init_key
+                0x13745e18                os_set_sig_info
+                0x13745e20                os_calc_ecdh_shared
+                0x13745e28                os_get_4byte_key
+                0x13745e30                os_aes_encrypt
+                0x13745e38                os_aes_decrypt
+                0x13745e40                os_crash
+                0x13745e48                os_puts
+ .text.gpio_set_on
+                0x13745e58       0x40 ../../libios/libios.a(gpio_c.o)
+                0x13745e58                gpio_set_on
+ .text.InitializeLock
+                0x13745e98       0x30 ../../libios/libios.a(lock_c.o)
+                0x13745e98                InitializeLock
+ .text.GetLock  0x13745ec8       0x2c ../../libios/libios.a(lock_c.o)
+                0x13745ec8                GetLock
+ .text.ReleaseLock
+                0x13745ef4       0x10 ../../libios/libios.a(lock_c.o)
+                0x13745ef4                ReleaseLock
+ .text.__lwp_heap_free.part.0
+                0x13745f04       0xd8 ../../libios/libios.a(lwp_heap_c.o)
+ .text.__lwp_heap_init
+                0x13745fdc       0x50 ../../libios/libios.a(lwp_heap_c.o)
+                0x13745fdc                __lwp_heap_init
+ .text.__lwp_heap_allocate
+                0x1374602c       0x98 ../../libios/libios.a(lwp_heap_c.o)
+                0x1374602c                __lwp_heap_allocate
+ .text.__lwp_heap_free
+                0x137460c4       0x14 ../../libios/libios.a(lwp_heap_c.o)
+                0x137460c4                __lwp_heap_free
+ .text          0x137460d8      0x150 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_divsi3.o)
+                0x137460d8                __divsi3
+                0x137460d8                __aeabi_idiv
+                0x13746208                __aeabi_idivmod
+ .text          0x13746228        0x4 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_dvmd_tls.o)
+                0x13746228                __aeabi_idiv0
+                0x13746228                __aeabi_ldiv0
+ .text.strncmp  0x1374622c       0x78 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+                0x1374622c                strncmp
+ .text.strchr   0x137462a4       0xc8 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+                0x137462a4                strchr
+ .text.strlen   0x1374636c       0x60 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+                0x1374636c                strlen
+ .text.memmove  0x137463cc       0xbc C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+                0x137463cc                memmove
+ .text.strcat   0x13746488       0x50 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+                0x13746488                strcat
+ .text.strcasecmp
+                0x137464d8       0x48 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+                0x137464d8                strcasecmp
+ .text.stpcpy   0x13746520       0x4c C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+                0x13746520                stpcpy
+ .text.memcpy   0x1374656c       0x90 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+                0x1374656c                memcpy
+ .text.memset   0x137465fc       0xb0 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+                0x137465fc                memset
+ .text.strcpy   0x137466ac       0x10 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+                0x137466ac                strcpy
+ .text.strncpy  0x137466bc       0x68 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+                0x137466bc                strncpy
+ .text          0x13746724      0x234 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcmp.o)
+                0x13746724                strcmp
+ .text.__stub   0x13746958      0x124 linker stubs
+ *(.gnu.warning)
+ *(.gnu.linkonce.t.*)
+ *(.init)
+ *(.glue_7)
+ .glue_7        0x13746a80        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x13746a80        0x0 linker stubs
+
+.vfp11_veneer   0x13746a80        0x0
+ .vfp11_veneer  0x13746a80        0x0 linker stubs
+
+.v4_bx          0x13746a80        0x0
+ .v4_bx         0x13746a80        0x0 linker stubs
+
+.iplt           0x13746a80        0x0
+ .iplt          0x13746a80        0x0 dip_cpp.o
+
+.data           0x13748000       0x2c
+ *(.ios_data)
+ *(.data*)
+ .data._ZL10NAND_Funcs
+                0x13748000       0x1c emu_cpp.o
+ .data._ZL17fs_internal_queue
+                0x1374801c        0x4 emu_cpp.o
+ .data._ZL6emu_fd
+                0x13748020        0x4 emu_cpp.o
+ .data.file_fd  0x13748024        0x4 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .data.mem_lock
+                0x13748028        0x4 ../../libios/libios.a(mem_c.o)
+ *(.data1)
+ *(.gnu.linkonce.d.*)
+                0x1374802c                        . = ALIGN (0x4)
+                0x1374802c                        __CTOR_LIST__ = ABSOLUTE (.)
+ *(SORT_BY_NAME(.ctors*))
+                0x1374802c                        __CTOR_END__ = ABSOLUTE (.)
+                0x1374802c                        __DTOR_LIST__ = ABSOLUTE (.)
+ *(SORT_BY_NAME(.dtors*))
+                0x1374802c                        __DTOR_END__ = ABSOLUTE (.)
+ *(.dynamic)
+ *(.sdata*)
+ *(.gnu.linkonce.s.*)
+                0x1374802c                        . = ALIGN (0x4)
+ *(.2ram.*)
+
+.igot.plt       0x1374802c        0x0
+ .igot.plt      0x1374802c        0x0 dip_cpp.o
+
+.fini           0x1374802c        0x0
+                0x1374802c                        . = .
+ *(.fini)
+
+.rodata         0x1374802c      0x769
+                0x1374802c                        . = .
+ *(.rodata*)
+ .rodata._ZN8ProxiIOS3DIP3DIPC2Ev.str1.4
+                0x1374802c      0x1d6 dip_cpp.o
+                                 0x10 (size before relaxing)
+ .rodata._ZN8ProxiIOS3DIP3DIP7CopyDirEPKcS3_.str1.4
+                0x13748202        0x2 dip_cpp.o
+ .rodata._ZN8ProxiIOS3DIP3DIP5DoEmuEPKcS3_PKi.str1.4
+                0x13748202       0x22 dip_cpp.o
+ *fill*         0x13748202        0x2 
+ .rodata._ZN8ProxiIOS3DIP3DIP11HandleIoctlEP10ipcmessage
+                0x13748204      0x168 dip_cpp.o
+ .rodata._ZTVN8ProxiIOS3DIP3DIPE
+                0x1374836c       0x44 dip_cpp.o
+                0x1374836c                vtable for ProxiIOS::DIP::DIP
+ .rodata._ZN8ProxiIOS3EMU3EMU10emu_threadEPv.str1.4
+                0x137483b0        0x8 emu_cpp.o
+ .rodata._ZL14FilesystemHookPK10ipcmessagePi.str1.4
+                0x137483b0        0xc emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU7RiivDir8OpenFileEPKci.str1.4
+                0x137483b0        0x5 emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU9TicketDir17GetTranslatedPathEPKc.str1.4
+                0x137483b0       0x2c emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU6AppDir10InitializeEv.part.0.str1.4
+                0x137483b0       0x29 emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU6AppDir8AppToCIDEPKc.str1.4
+                0x137483b0        0x5 emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU6AppDir6MoveToEPKcS3_.str1.4
+                0x137483b0        0xe emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU9TitleFile9CreateTmdEPKci.str1.4
+                0x137483b0       0x1b emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU9TitleFile9CreateTikEPKci.str1.4
+                0x137483b0       0x39 emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU9TicketDirC2Ev.str1.4
+                0x137483b0        0x1 emu_cpp.o
+ .rodata._ZNSt6vectorIPN8ProxiIOS3EMU7RiivDirESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_.str1.4
+                0x137483b0       0x1a emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU3EMU16CheckForDLCTitleEPKc.str1.4
+                0x137483b0       0x31 emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU3EMU15HandleFSMessageEP10ipcmessagePi
+                0x137483b0       0x6c emu_cpp.o
+ .rodata._ZN8ProxiIOS3EMU3EMU11HandleIoctlEP10ipcmessage.str1.4
+                0x1374841c       0x16 emu_cpp.o
+ .rodata._ZTVN8ProxiIOS3EMU8RiivFileE
+                0x1374841c       0x1c emu_cpp.o
+                0x1374841c                vtable for ProxiIOS::EMU::RiivFile
+ .rodata._ZTVN8ProxiIOS3EMU7VFFFileE
+                0x13748438       0x1c emu_cpp.o
+                0x13748438                vtable for ProxiIOS::EMU::VFFFile
+ .rodata._ZTVN8ProxiIOS3EMU7AppFileE
+                0x13748454       0x1c emu_cpp.o
+                0x13748454                vtable for ProxiIOS::EMU::AppFile
+ .rodata._ZTVN8ProxiIOS3EMU9TitleFileE
+                0x13748470       0x1c emu_cpp.o
+                0x13748470                vtable for ProxiIOS::EMU::TitleFile
+ .rodata._ZTVN8ProxiIOS3EMU7RiivDirE
+                0x1374848c       0x2c emu_cpp.o
+                0x1374848c                vtable for ProxiIOS::EMU::RiivDir
+ .rodata._ZTVN8ProxiIOS3EMU6AppDirE
+                0x137484b8       0x2c emu_cpp.o
+                0x137484b8                vtable for ProxiIOS::EMU::AppDir
+ .rodata._ZTVN8ProxiIOS3EMU9TicketDirE
+                0x137484e4       0x2c emu_cpp.o
+                0x137484e4                vtable for ProxiIOS::EMU::TicketDir
+ .rodata._ZTVN8ProxiIOS3EMU3EMUE
+                0x13748510       0x2c emu_cpp.o
+                0x13748510                vtable for ProxiIOS::EMU::EMU
+ .rodata._ZN8ProxiIOS3USB3HID10hid_threadEPv.str1.4
+                0x1374853c        0xd usbhid_cpp.o
+ .rodata._ZN8ProxiIOS3USB3HIDC2EPhi.str1.4
+                0x1374853c       0x1d usbhid_cpp.o
+ .rodata._ZN8ProxiIOS3USB13XBOX360_Drums9GetReportEPhj
+                0x1374853c       0x2c usbhid_cpp.o
+ .rodata._ZN8ProxiIOS3USB13XBOX360_Drums9SetOutputEPKhj
+                0x13748568       0x24 usbhid_cpp.o
+ .rodata._ZN8ProxiIOS3USB13XBOX360_Drums7ConnectEv.str1.4
+                0x1374858c        0x4 usbhid_cpp.o
+ .rodata._ZN8ProxiIOS3USB3HID11HandleOtherEjRiRb
+                0x1374858c       0x24 usbhid_cpp.o
+ .rodata._ZTVN8ProxiIOS3USB3HIDE
+                0x137485b0       0x44 usbhid_cpp.o
+                0x137485b0                vtable for ProxiIOS::USB::HID
+ .rodata._ZZN8ProxiIOS3USB13XBOX360_Drums7ConnectEvE10InitOutput
+                0x137485f4        0x8 usbhid_cpp.o
+ *fill*         0x137485fc        0x4 
+ .rodata.padding.0
+                0x13748600       0x30 binfile_c.o
+ .rodata.File_Init.str1.4
+                0x13748630        0x5 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .rodata.File_Open_ID.str1.4
+                0x13748630       0x11 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .rodata.HEX_CHARS
+                0x13748630       0x11 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ *fill*         0x13748641        0x3 
+ .rodata._ZN8ProxiIOS6Module4LoopEv
+                0x13748644       0x24 ../../libios/libios.a(proxiios_cpp.o)
+ .rodata._ZTVN8ProxiIOS6ModuleE
+                0x13748668       0x2c ../../libios/libios.a(proxiios_cpp.o)
+                0x13748668                vtable for ProxiIOS::Module
+ .rodata.USB_OpenDevice.str1.4
+                0x13748694       0x16 ../../libios/libios.a(usb_c.o)
+ .rodata._ctype_
+                0x13748694      0x101 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+                0x13748694                _ctype_
+ *(.gnu.linkonce.r.*)
+
+.rel.dyn        0x13748798        0x0
+ .rel.iplt      0x13748798        0x0 dip_cpp.o
+
+.rodata1        0x13748798        0x0
+                0x13748798                        . = .
+ *(.rodata1)
+
+.fixup          0x13748798        0x0
+                0x13748798                        . = .
+ *(.fixup)
+
+.gcc_except_table
+                0x13748798        0x0
+                0x13748798                        . = .
+ *(.gcc_except_table)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.bss            0x13748798    0x3f868
+ *(.scommon)
+ *(.dynsbss)
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.dynbss)
+ *(.bss*)
+ .bss._ZL9CBMessage
+                0x13748798       0x20 emu_cpp.o
+ .bss._ZL12ProxyMessage
+                0x137487b8       0x20 emu_cpp.o
+ .bss._ZL16fs_internal_msgs
+                0x137487d8       0x10 emu_cpp.o
+ .bss.FS_ret    0x137487e8        0x4 emu_cpp.o
+                0x137487e8                FS_ret
+ .bss.FS_ioctl_vect
+                0x137487ec        0x4 emu_cpp.o
+                0x137487ec                FS_ioctl_vect
+ *fill*         0x137487f0       0x10 
+ .bss._ZL9hid_stack
+                0x13748800     0x2000 main_cpp.o
+ .bss._ZL9emu_stack
+                0x1374a800     0x2000 main_cpp.o
+ .bss.short_path.0
+                0x1374c800       0x20 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .bss._st       0x1374c820       0x30 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .bss.ioctlvbuffer
+                0x1374c850       0x20 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .bss.ioctlbuffer
+                0x1374c870       0x80 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .bss.mem_msg   0x1374c8f0        0x4 ../../libios/libios.a(mem_c.o)
+ .bss.heap      0x1374c8f4       0x1c ../../libios/libios.a(mem_c.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+ *(.ios_bss)
+ .ios_bss       0x1374c910     0x2000 crt0_s.o
+                0x1374c910                ios_thread_stack
+                0x1374e910                        . = ALIGN (0x8)
+                0x1374e910                        PROVIDE (HEAP_START = .)
+                0x13788000                        . = ABSOLUTE (__ram_end__)
+ *fill*         0x1374e910    0x396f0 
+                0x13788000                        PROVIDE (HEAP_END = __ram_end__)
+OUTPUT(dipmodule.elf elf32-bigarm)
+LOAD linker stubs
+
+.debug_loclists
+                0x00000000     0xd9e8
+ .debug_loclists
+                0x00000000     0x1a5e dip_cpp.o
+ .debug_loclists
+                0x00001a5e     0x7242 emu_cpp.o
+ .debug_loclists
+                0x00008ca0       0x29 logging_cpp.o
+ .debug_loclists
+                0x00008cc9      0x128 main_cpp.o
+ .debug_loclists
+                0x00008df1      0xa2f usbhid_cpp.o
+ .debug_loclists
+                0x00009820      0xa75 binfile_c.o
+ .debug_loclists
+                0x0000a295      0xb13 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_loclists
+                0x0000ada8      0x7a3 ../../libios/libios.a(proxiios_cpp.o)
+ .debug_loclists
+                0x0000b54b      0x33d ../../libios/libios.a(mem_c.o)
+ .debug_loclists
+                0x0000b888     0x15cd ../../libios/libios.a(usb_c.o)
+ .debug_loclists
+                0x0000ce55      0x264 ../../libios/libios.a(gpio_c.o)
+ .debug_loclists
+                0x0000d0b9      0x10f ../../libios/libios.a(lock_c.o)
+ .debug_loclists
+                0x0000d1c8      0x820 ../../libios/libios.a(lwp_heap_c.o)
+
+.debug_rnglists
+                0x00000000     0x1986
+ .debug_rnglists
+                0x00000000      0x284 dip_cpp.o
+ .debug_rnglists
+                0x00000284      0xfe6 emu_cpp.o
+ .debug_rnglists
+                0x0000126a       0x13 logging_cpp.o
+ .debug_rnglists
+                0x0000127d       0x1f main_cpp.o
+ .debug_rnglists
+                0x0000129c       0xca usbhid_cpp.o
+ .debug_rnglists
+                0x00001366      0x144 binfile_c.o
+ .debug_rnglists
+                0x000014aa      0x10f ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .debug_rnglists
+                0x000015b9       0xcd ../../libios/libios.a(proxiios_cpp.o)
+ .debug_rnglists
+                0x00001686       0x67 ../../libios/libios.a(mem_c.o)
+ .debug_rnglists
+                0x000016ed       0xfc ../../libios/libios.a(usb_c.o)
+ .debug_rnglists
+                0x000017e9       0x5e ../../libios/libios.a(gpio_c.o)
+ .debug_rnglists
+                0x00001847       0x25 ../../libios/libios.a(lock_c.o)
+ .debug_rnglists
+                0x0000186c      0x11a ../../libios/libios.a(lwp_heap_c.o)
+
+.comment        0x00000000       0x23
+ .comment       0x00000000       0x23 dip_cpp.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000023       0x24 emu_cpp.o
+ .comment       0x00000023       0x24 logging_cpp.o
+ .comment       0x00000023       0x24 main_cpp.o
+ .comment       0x00000023       0x24 usbhid_cpp.o
+ .comment       0x00000023       0x24 binfile_c.o
+ .comment       0x00000023       0x24 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .comment       0x00000023       0x24 ../../libios/libios.a(proxiios_cpp.o)
+ .comment       0x00000023       0x24 ../../libios/libios.a(mem_c.o)
+ .comment       0x00000023       0x24 ../../libios/libios.a(usb_c.o)
+ .comment       0x00000023       0x24 ../../libios/libios.a(gpio_c.o)
+ .comment       0x00000023       0x24 ../../libios/libios.a(lock_c.o)
+ .comment       0x00000023       0x24 ../../libios/libios.a(lwp_heap_c.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+ .comment       0x00000023       0x24 C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x28 dip_cpp.o
+ .ARM.attributes
+                0x00000028       0x28 emu_cpp.o
+ .ARM.attributes
+                0x00000050       0x28 logging_cpp.o
+ .ARM.attributes
+                0x00000078       0x28 main_cpp.o
+ .ARM.attributes
+                0x000000a0       0x28 usbhid_cpp.o
+ .ARM.attributes
+                0x000000c8       0x28 binfile_c.o
+ .ARM.attributes
+                0x000000f0       0x1c crt0_s.o
+ .ARM.attributes
+                0x0000010c       0x28 ../../filemodule/libfile/libfile_ios.a(files_c.o)
+ .ARM.attributes
+                0x00000134       0x28 ../../libios/libios.a(proxiios_cpp.o)
+ .ARM.attributes
+                0x0000015c       0x28 ../../libios/libios.a(mem_c.o)
+ .ARM.attributes
+                0x00000184       0x28 ../../libios/libios.a(usb_c.o)
+ .ARM.attributes
+                0x000001ac       0x1c ../../libios/libios.a(asyscalls_s.o)
+ .ARM.attributes
+                0x000001c8       0x28 ../../libios/libios.a(gpio_c.o)
+ .ARM.attributes
+                0x000001f0       0x28 ../../libios/libios.a(lock_c.o)
+ .ARM.attributes
+                0x00000218       0x28 ../../libios/libios.a(lwp_heap_c.o)
+ .ARM.attributes
+                0x00000240       0x1c C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000025c       0x1c C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/be\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000278       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncmp.o)
+ .ARM.attributes
+                0x000002a2       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strchr.o)
+ .ARM.attributes
+                0x000002cc       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strlen-stub.o)
+ .ARM.attributes
+                0x000002f6       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memmove.o)
+ .ARM.attributes
+                0x00000320       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcat.o)
+ .ARM.attributes
+                0x0000034a       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcasecmp.o)
+ .ARM.attributes
+                0x00000374       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-stpcpy.o)
+ .ARM.attributes
+                0x0000039e       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000003c8       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-ctype_.o)
+ .ARM.attributes
+                0x000003f2       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-memset.o)
+ .ARM.attributes
+                0x0000041c       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcpy.o)
+ .ARM.attributes
+                0x00000446       0x2a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strncpy.o)
+ .ARM.attributes
+                0x00000470       0x1a C:/opt/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/be\libg.a(libc_a-strcmp.o)
+
+.debug_line_str
+                0x00000000      0x183
+ .debug_line_str
+                0x00000000      0x183 crt0_s.o
+                                 0xc2 (size before relaxing)
+ .debug_line_str
+                0x00000183       0xc1 ../../libios/libios.a(asyscalls_s.o)
