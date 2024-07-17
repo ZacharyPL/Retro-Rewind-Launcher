@@ -50,7 +50,8 @@ char filePath[MAX_PATH];
 
 bool done2 = false;
 bool die2 = false;
-int filesDownloaded = 0; // Declare filesDownloaded variable
+int filesToDownload = 0;
+int filesDownloaded = 0;
 int totalFiles = 0; // Declare totalFiles variable
 
 void timetostop() {
@@ -104,16 +105,16 @@ int compareVersions(const char * localVersion,
 }
 
 int ProgressCallback(void *clientp, double dltotal, double dlnow, double ultotal, double ulnow) {
-    // Update total size if it's not set yet
-    if (totalSize == 0) {
-        totalSize = dltotal;
-    }
-
     // Calculate progress for the current file
     double fileProgress = (dlnow / dltotal) * 100.0;
 
     // Calculate overall progress percentage including completed files
-    double overallProgress = (((double)filesDownloaded / totalFiles) * 100.0) + (fileProgress / totalFiles);
+    double overallProgress = (((double)filesDownloaded / filesToDownload) * 100.0) + (fileProgress / filesToDownload);
+
+    // Ensure it ends at 100 percent
+    if (dlnow == dltotal && filesDownloaded == filesToDownload - 1) {
+        overallProgress = 100.0;
+    }
 
     // Update progress text
     char progressText[40];
@@ -188,7 +189,7 @@ void extractZip(const char *zipFilename, const char *outputDirectory) {
 }
 
 
-void downloadFile(const char * url, const char * outputFilename) {
+void downloadFile(const char *url, const char *outputFilename) {
     CURL *curl;
     CURLcode res;
 
@@ -218,6 +219,10 @@ void downloadFile(const char * url, const char * outputFilename) {
         curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
         curl_easy_setopt(curl, CURLOPT_PROGRESSFUNCTION, ProgressCallback);
 
+        // Reset progress for new file
+        totalSize = 0;
+        downloadedSize = 0;
+
         res = curl_easy_perform(curl);
 
         fclose(fp);
@@ -228,14 +233,17 @@ void downloadFile(const char * url, const char * outputFilename) {
             printf("Downloaded: %s\n", outputFilename);
 
             // Check if it's a zip file
-    if (strstr(outputFilename, ".zip") != NULL) {
-        // Extract the zip file to a temporary directory
-        extractZip(outputFilename, "temp_extract");
+            if (strstr(outputFilename, ".zip") != NULL) {
+                // Extract the zip file to a temporary directory
+                extractZip(outputFilename, "temp_extract");
 
-        // Remove the downloaded zip file
-        remove(outputFilename);
-    }
-}
+                // Remove the downloaded zip file
+                remove(outputFilename);
+            }
+
+            // Increment filesDownloaded count after a successful download
+            filesDownloaded++;
+        }
 
         curl_easy_cleanup(curl);
     }
@@ -254,86 +262,85 @@ void updateLocalVersion(const char * newVersion) {
   fclose(localVersionFile);
 }
 
-void downloadFilesFromVersionFile(const char * versionFileURL,
-  const char * localVersion) {
-  CURL * curl;
-  CURLcode res;
+void downloadFilesFromVersionFile(const char *versionFileURL, const char *localVersion) {
+    CURL *curl;
+    CURLcode res;
 
-  curl_global_init(CURL_GLOBAL_DEFAULT);
-  curl = curl_easy_init();
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+    curl = curl_easy_init();
 
-  if (curl) {
-    FILE * versionFile = fopen("sd:/RetroRewind6/filelist.txt", "wb");
-    if (versionFile == NULL) {
-      printf("Error opening version.txt for writing.\n");
-      return;
+    if (curl) {
+        FILE *versionFile = fopen("sd:/RetroRewind6/filelist.txt", "wb");
+        if (versionFile == NULL) {
+            printf("Error opening version.txt for writing.\n");
+            return;
+        }
+
+        curl_easy_setopt(curl, CURLOPT_URL, versionFileURL);
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, versionFile);
+
+        res = curl_easy_perform(curl);
+
+        if (res != CURLE_OK)
+            fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
+
+        fclose(versionFile);
+        curl_easy_cleanup(curl);
     }
 
-    curl_easy_setopt(curl, CURLOPT_URL, versionFileURL);
-    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-    curl_easy_setopt(curl, CURLOPT_WRITEDATA, versionFile);
+    curl_global_cleanup();
 
-    res = curl_easy_perform(curl);
+    printf("Contents of version.txt:\n");
+    FILE *versionFileContents = fopen("sd:/RetroRewind6/filelist.txt", "r");
+    if (versionFileContents) {
+        // Reset filesDownloaded count
+        filesDownloaded = 0;
+        filesToDownload = 0;
 
-    if (res != CURLE_OK)
-      fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
+        char onlineVersion[MAX_VERSION_LENGTH];
+        char url[MAX_URL_LENGTH];
+        char outputFilename[MAX_FILENAME_LENGTH];
+        char directoryName[MAX_FIELD_LENGTH];
 
-    fclose(versionFile);
-    curl_easy_cleanup(curl);
-  }
+        // First pass: Count the number of files to download
+        while (fscanf(versionFileContents, "%s %s %s %s", onlineVersion, url, outputFilename, directoryName) == 4) {
+            int comparisonResult = compareVersions(localVersion, onlineVersion);
+            if (comparisonResult < 0) {
+                filesToDownload++;
+            }
+        }
+        rewind(versionFileContents);
 
-  curl_global_cleanup();
+        // Second pass: Download the files
+        while (fscanf(versionFileContents, "%s %s %s %s", onlineVersion, url, outputFilename, directoryName) == 4) {
+            // Construct the full path including the directory
+            char fullPath[MAX_FILENAME_LENGTH];
+            snprintf(fullPath, sizeof(fullPath), "sd:/RetroRewind6/%s", directoryName);
 
-  printf("Contents of version.txt:\n");
-  FILE * versionFileContents = fopen("sd:/RetroRewind6/filelist.txt", "r");
-  if (versionFileContents) {
-    // Reset filesDownloaded count
-    filesDownloaded = 0;
+            // Extract directory path from the filePath
+            char directory[MAX_FILENAME_LENGTH];
+            strncpy(directory, fullPath, strrchr(fullPath, '/') - fullPath);
+            directory[strrchr(fullPath, '/') - fullPath] = '\0';
 
-    // Count total number of files
-    totalFiles = 0;
-    char onlineVersion[MAX_VERSION_LENGTH];
-    char url[MAX_URL_LENGTH];
-    char outputFilename[MAX_FILENAME_LENGTH];
-    char directoryName[MAX_FIELD_LENGTH];
+            mkdir(fullPath, 0777);
 
-    while (fscanf(versionFileContents, "%s %s %s %s", onlineVersion, url, outputFilename, directoryName) == 4) {
-      totalFiles++;
+            int comparisonResult = compareVersions(localVersion, onlineVersion);
+
+            if (comparisonResult < 0) {
+                downloadFile(url, outputFilename);
+                printf("Downloaded: %s\n", outputFilename);
+                updateLocalVersion(onlineVersion);
+            } else if (comparisonResult == 0) {
+                printf("Local version is up-to-date.\n");
+            } else {
+                printf("Skipping download for version %s (already up-to-date).\n", onlineVersion);
+            }
+        }
+
+        // Close version file
+        fclose(versionFileContents);
     }
-    rewind(versionFileContents);
-
-    // Iterate through files and download
-    while (fscanf(versionFileContents, "%s %s %s %s", onlineVersion, url, outputFilename, directoryName) == 4) {
-      // Construct the full path including the directory
-      char fullPath[MAX_FILENAME_LENGTH];
-      snprintf(fullPath, sizeof(fullPath), "sd:/RetroRewind6/%s", directoryName);
-
-      // Extract directory path from the filePath
-      char directory[MAX_FILENAME_LENGTH];
-      strncpy(directory, fullPath, strrchr(fullPath, '/') - fullPath);
-      directory[strrchr(fullPath, '/') - fullPath] = '\0';
-
-      mkdir(fullPath, 0777);
-
-      int comparisonResult = compareVersions(localVersion, onlineVersion);
-
-      if (comparisonResult < 0) {
-        downloadFile(url, outputFilename);
-        printf("Downloaded: %s\n", outputFilename);
-        updateLocalVersion(onlineVersion);
-      } else if (comparisonResult == 0) {
-        printf("Local version is up-to-date.\n");
-      } else {
-        printf("Skipping download for version %s (already up-to-date).\n", onlineVersion);
-      }
-
-      // Increment filesDownloaded count
-      filesDownloaded++;
-    }
-
-    // Close version file
-    fclose(versionFileContents);
-  }
 }
 
 void deleteFilesInDirectory(const char * directoryPath) {
