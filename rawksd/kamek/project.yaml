@@ -1,3 +1,0 @@
----
-output_dir: "build"
-modules: [leaderboard.yaml, dlc.yaml, hacks.yaml]
