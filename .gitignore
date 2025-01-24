@@ -1,0 +1,5 @@
+*.o
+*.d
+*.lst
+*.cs
+/stripios
